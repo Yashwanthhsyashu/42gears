@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>42Gears</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2 class="Hub" ><i class="fa-solid fa-apple-whole"></i>SureMDM Hub</h2>
+            <p class="setting"><i class="fa-solid fa-gear"></i></p>
+        </div>
+        
+        <div class="content">
+
+            <div class="sidebar">
+                <ul>
+                    <li><i class="fa-regular fa-address-book"></i>
+                        <select id="lorem-ipsum1">
+                            <option>Lorem Ipsum</option>
+                        </select>
+                    </li>
+                    <li><i class="fa-solid fa-chart-simple"></i>
+                        <select id="lorem-ipsum2">
+                            <option value="Lorem Ipsum">Lorem Ipsum</option>
+                        </select>
+                    </li>
+                    <li><i class="fa-regular fa-address-book"></i>
+                        <select id="lorem-ipsum3">
+                            <option value="Lorem Ipsum">Lorem Ipsum</option>
+                        </select>
+                    </li>
+                    <li><i class="fa-regular fa-user"></i>
+                        <select id="lorem-ipsum4">
+                            <option value="Lorem Ipsum">Lorem Ipsum</option>
+                        </select>
+                    </li>
+                    <li class="active"><i class="fa-solid fa-book"></i>
+                        <select id="lorem-ipsum1">
+                            <option value="Lorem Ipsum">Lorem Ipsum</option>
+                        </select>
+                    </li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i>
+                        <select id="lorem-ipsum1">
+                            <option value="Lorem Ipsum">Lorem Ipsum</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right-form">
+                <div class="content-background">
+                    <div class="main-content" id="maincontent">
+                        <div class="top-bar">
+                            <h3>Lorem Ipsum</h3>
+                            <div class="actions">
+                                <input type="checkbox" id="toggleButton" class="hidden-checkbox" hidden>
+                                <label for="toggleButton" class="button">Expand</label>
+                                <input type="text" placeholder="Search" class="search-bar">
+                            </div>
+                        </div>
+                        
+                        <label for="form-toggle" class="collapsible1">Lorem Ipsum</label>
+                        <input type="checkbox" id="form-toggle" class="toggle-checkbox" hidden>
+                        <form class="form-section">
+                            
+                            <div class="form-group">
+                                
+                                <div class="form-header">
+                                    <label for="input1">Lorem Ipsum</label>
+                                    <input type="checkbox" checked>
+                                    
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Email ID</label>
+                                    <input type="email" id="email" placeholder="Enter email">
+                                    <button onclick="validateEmail()" class="verify-btn">Verify Email</button>
+                                </div>
+        
+                                <div class="input-group">
+                                    <label for="country">Country/Region</label>
+                                    <select id="country">
+                                        <option value="India">India</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+        
+                            <div class="form-group">
+                                <div class="form-header">
+                                    <label for="input2">Lorem Ipsum</label>
+                                    <input type="checkbox" checked>
+                                </div>
+                                <div class="input-group">
+                                    <label for="lorem-ipsum">Lorem Ipsum</label>
+                                    <input type="text" id="lorem-ipsum">
+                                </div>
+                            </div>
+                            <hr>
+                            <button type="submit" class="save-btn">Save</button>
+                        </form>
+        
+                        <div class="collapsible-section">
+                            <button class="collapsible">Lorem Ipsum</button>
+                            <button class="collapsible">Lorem Ipsum</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
